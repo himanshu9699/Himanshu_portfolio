@@ -3084,3 +3084,63 @@ button.apihu-port-primary-btn:hover {
     font-weight:600
   }
 }
+/* .box {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+p {
+  font-size: 17px;
+  align-items: center;
+}
+
+.box a {
+  display: inline-block;
+  /* background-color: #666666; */
+  padding: 15px;
+  border-radius: 3px;
+}
+
+.modal {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  /* background-color: #666666; */
+  /* color: #666666; */
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 9999;
+  /* background: rgba(254, 126, 126, 0.7); */
+  transition: all 0.4s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.content {
+  position: absolute;
+  background: white;
+  width: 400px;
+  padding: 1em 2em;
+  border-radius: 4px;
+}
+
+.modal:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.box-close {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  color: #fe0606;
+  text-decoration: none;
+  font-size: 30px;
+}
