@@ -41,7 +41,7 @@
   </ul>
 
   <h2 id="license">License</h2>
-  <p>This project is licensed under the MIT License. See the <a href="LICENSE" target="_blank">LICENSE</a> file for details.</p>
+  <p>This project is licensed under the MIT License. See the <a href="LICENSE" target="Licence">LICENSE</a> file for details.</p>
 
   <h2 id="contact">Contact</h2>
   <p>For any inquiries or collaboration opportunities, feel free to reach out:</p>
