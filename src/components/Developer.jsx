@@ -16,10 +16,10 @@ const Developer = ({ animationName = 'idle', ...props }) => {
   const clone = React.useMemo(() => SkeletonUtils.clone(scene), [scene]);
   const { nodes, materials } = useGraph(clone);
 
-  const { animations: idleAnimation } = useFBX('/models/animations/idle.fbx');
-  const { animations: saluteAnimation } = useFBX('/models/animations/salute.fbx');
-  const { animations: clappingAnimation } = useFBX('/models/animations/clapping.fbx');
-  const { animations: victoryAnimation } = useFBX('/models/animations/victory.fbx');
+  const { animations: idleAnimation } = useFBX('https://o6m60linf6rp6s5m.public.blob.vercel-storage.com/idle-YY9fdjRZeb7B5VEqV0SDKk29FOq4Bh.fbx');
+  const { animations: saluteAnimation } = useFBX('https://o6m60linf6rp6s5m.public.blob.vercel-storage.com/salute-Es3aIKXtXt6rmVJ020duObe7xAp5NZ.fbx');
+  const { animations: clappingAnimation } = useFBX('https://o6m60linf6rp6s5m.public.blob.vercel-storage.com/clapping-zxh2KOYsCUSpcPEYLfU3S7oX5WUkxp.fbx');
+  const { animations: victoryAnimation } = useFBX('https://o6m60linf6rp6s5m.public.blob.vercel-storage.com/victory-aRLTZUAEcjz5iftF070xJDair5rukz.fbx');
 
   idleAnimation[0].name = 'idle';
   saluteAnimation[0].name = 'salute';
@@ -105,6 +105,6 @@ const Developer = ({ animationName = 'idle', ...props }) => {
   );
 };
 
-useGLTF.preload('/models/animations/developer.glb');
+useGLTF.preload('https://o6m60linf6rp6s5m.public.blob.vercel-storage.com/developer-JKO6ta8sRrrOWilP29TW0myCSc09ce.glb');
 
 export default Developer;

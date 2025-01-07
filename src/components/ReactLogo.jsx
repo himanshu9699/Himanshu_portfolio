@@ -9,7 +9,7 @@
 import { Float, useGLTF } from '@react-three/drei';
 
 const ReactLogo = (props) => {
-  const { nodes, materials } = useGLTF('models/react.glb');
+  const { nodes, materials } = useGLTF('https://o6m60linf6rp6s5m.public.blob.vercel-storage.com/react-7ikiDKmjDsDYgLIEbY14b0zYOHXFkP.glb');
 
   return (
     <Float floatIntensity={1}>
@@ -26,6 +26,6 @@ const ReactLogo = (props) => {
   );
 };
 
-useGLTF.preload('models/react.glb');
+useGLTF.preload('https://o6m60linf6rp6s5m.public.blob.vercel-storage.com/react-7ikiDKmjDsDYgLIEbY14b0zYOHXFkP.glb');
 
 export default ReactLogo;
