@@ -62,41 +62,41 @@ export const myProjects = [
     desc: "Nutrii++ is an intelligent system that leverages advanced deep learning techniques, including Convolutional Neural Networks (CNNs), to accurately predict the calorie content of food from images.",
     subdesc: "By combining computer vision and nutritional science, Nutrii++ simplifies calorie tracking and promotes healthier eating habits. This innovative solution showcases expertise in machine learning and image processing.",
     texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
+    logo: 'assets/project-logo3.png',
     logoStyle: {
       backgroundColor: '#2A1816',
       border: '0.2px solid #36201D',
       boxShadow: '0px 0px 60px 0px #AA3C304D',
     },
-    spotlight: '/assets/spotlight1.png',
+    spotlight: '/assets/spotlight3.png',
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Python',
+        path: 'assets/icons8-python-48.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'Tensorflow',
+        path: 'assets/icons8-tensorflow-48.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'OpenCv',
+        path: 'assets/icons8-opencv-48.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Docker',
+        path: 'assets/icons8-docker-48.png',
       },
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    title: 'CUSTOMER SUPPORT CHATBOT',
+    desc: 'Designed and developed an intelligent chatbot using LLaMA 2 to provide human-like responses and manage multi-turn conversations for enhanced customer engagement.',
     subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
+      'To ensure scalability and real-time query handling, the chatbot API was deployed using FastAPI and Docker. This robust deployment approach enabled efficient handling of customer queries, making the solution reliable and adaptable for dynamic business environments.',
     href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo2.png',
@@ -109,101 +109,25 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Python',
+        path: 'assets/icons8-python-48.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'Tensorflow',
+        path: 'assets/icons8-tensorflow-48.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'OpenCv',
+        path: 'assets/icons8-opencv-48.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Docker',
+        path: 'assets/icons8-docker-48.png',
       },
-    ],
-  },
-  {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
-    subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-    texture: '/textures/project/project3.mp4',
-    logo: '/assets/project-logo3.png',
-    logoStyle: {
-      backgroundColor: '#60f5a1',
-      background:
-        'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-      border: '0.2px solid rgba(208, 213, 221, 1)',
-      boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
-    },
-    spotlight: '/assets/spotlight3.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
-  {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
-    subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
-    texture: '/textures/project/project4.mp4',
-    logo: '/assets/project-logo4.png',
-    logoStyle: {
-      backgroundColor: '#0E1F38',
-      border: '0.2px solid #0E2D58',
-      boxShadow: '0px 0px 60px 0px #2F67B64D',
-    },
-    spotlight: '/assets/spotlight4.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
+    ],  
   },
   {
     title: 'Imaginify - AI Photo Manipulation App',
@@ -222,23 +146,23 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Python',
+        path: 'assets/icons8-python-48.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'Tensorflow',
+        path: 'assets/icons8-tensorflow-48.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'OpenCv',
+        path: 'assets/icons8-opencv-48.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Docker',
+        path: 'assets/icons8-docker-48.png',
       },
     ],
   },
