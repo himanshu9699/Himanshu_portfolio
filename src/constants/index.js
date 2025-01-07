@@ -185,8 +185,8 @@ export const workExperiences = [
     name: 'Data Engineer',
     pos: 'Prescience Decision Solution',
     duration: '2024 - Present',
-    title: "Developed a Data Transformation tool which gets the data from databases and cleans the data by applying some rules which is now deployed in AWS marketplace, Developed a summarization tool using llm to summarize the data which we got from Annual reports of company, Consulted with other teams to jump start cloud-technology adoption and solutions throughout the company, Developed a tutor chatbot that is used Socratic teaching for 1st to 12th class students in schools",
-    icon: '/assets/framer.svg',
+    title: "Developed a Data Transformation tool which gets the data from databases and cleans the data by applying some rules which is now deployed in AWS marketplace. Developed a tool which extracts the data from pdf’s and stores them in the database with titles and subtitles. Developed a summarization tool using llm to summarize the data which we got from the annual reports of the company. Developed a tutor chatbot that uses Socratic teaching method for teaching of 1st to 12th class students in schools Developed an Conversation analysis script and pipeline using openAI, Azure functions and Azure Data Factory.",
+    icon: 'assets/favicon-icon.png',
     animation: 'victory',
   },
   {
